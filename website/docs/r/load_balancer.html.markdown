@@ -37,3 +37,4 @@ The following arguments are supported:
 * `data_center` - (Required, string) The datacenter location of both parent group and this group.
 * `status` - (Required, string) Either "enabled" or "disabled"
 * `description` - (Optional, string) Description for server group (visible in control portal only)
+* `ip_address` - (Computed) The IP of the load balancer.
