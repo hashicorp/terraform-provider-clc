@@ -35,11 +35,11 @@ The following arguments are supported:
 
 * `name` - (Required, string) The name (or GUID) of this server group. Will resolve to existing if present.
 * `parent` - (Required, string) The name or ID of the parent group. Will error if absent or unable to resolve.
+* `parent_group_id` - (Computed) The ID of the parent group.
 * `location_id` - (Required, string) The datacenter location of both parent group and this group.
    Examples: "WA1", "VA1"
 * `description` - (Optional, string) Description for server group (visible in control portal only)
 * `custom_fields` - (Optional) See [CustomFields](#custom_fields) below for details.
-
 
 
 <a id="custom_fields"></a>
