@@ -10,6 +10,8 @@ description: |-
 
 # CLC Provider
 
+~> **This provider is deprecated,** and the service it interacts with has been discontinued.
+
 The clc provider is used to interact with the many resources supported
 by CenturyLinkCloud. The provider needs to be configured with account
 credentials before it can be used.
